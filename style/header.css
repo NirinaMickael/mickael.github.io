@@ -1,0 +1,25 @@
+.logo span {
+    color: #F8971D; /* Color for 'Aft' text */
+}
+.btn-publish {
+    background-color: hsl(180, 100%, 27%);
+    color: white;
+}
+.profile-icon {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+
+/* nav bar */
+
+.nav-item::after {
+    content: "•";
+    margin: 0 20px;
+    color: #777;
+}
+.nav-item:last-child::after {
+    content: "";
+}
+

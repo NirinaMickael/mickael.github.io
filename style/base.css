@@ -1,0 +1,32 @@
+* ,p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+.subtitle {
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+ .heading-3 {
+    font-weight: 700;
+    font-size: large;
+    font-family: "Barlow Condensed";
+ }
+ .heading-4{
+    font-weight: 700;
+    font-size: medium;
+    font-family: "Barlow Condensed";
+ }
+
+ .text-small{
+    color: #777777;
+    font-weight: lighter;
+    font-size: small;
+    font-family: 'Montserrat';
+    line-height: 15px;
+ }
+
+
+ .custom-card {
+    height: 225px;
+ }

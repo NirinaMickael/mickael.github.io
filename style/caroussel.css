@@ -1,0 +1,31 @@
+.carousel {
+    width: 1200px; /* Display four 300px images */
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 20px;
+}
+.carousel img {
+    width: 300px; /* Each image width */
+}
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+
+}
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #EF7A64;
+}
