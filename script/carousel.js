@@ -4,19 +4,19 @@ const carouselImages = document.querySelector('.carousel-images');
 
     // Create an array of image URLs
     const imageUrls = [
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
-        'assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
+        './assets/images/image.svg',
     ];
 
     // Create image elements dynamically and add to the carousel
